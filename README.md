@@ -1,36 +1,47 @@
-# echart_usage
+# echarts八大图表类型记忆图
 
-#### 介绍
+### 组件封装模版
+见 template.vue 文件
 
-#### 软件架构
-软件架构说明
+### 1.柱形图(bar)
 
+##### 1.设置标题
+option.title = {
+    text: '商家销售统计',
+    left: 20,
+    top: 20
+}
+##### 2.设置图形的上下左右间距
+option.grid = {
+    top: '20%',
+    left: '3%',
+    right: '6%',
+    bottom: '3%',
+    <!-- 距离要包含坐标轴文字 -->
+    containLabel: true
+}
 
-#### 安装教程
+##### 3.设置柱状图鼠标提示信息
+option.tooltip = {
+    <!-- 触发方式 -->
+    trigger: 'axis',
+    <!-- 指示器配置 -->
+    axisPointer: {
+        <!-- 线条 -->
+        type: 'line',
+        <!-- 层级 -->
+        z: 0,
+        <!-- 线条样式 -->
+        lineStyle: {
+            color: '#2d3443'
+        }
+    }
+}
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+echartInstance.setOption(option)
 
-#### 使用说明
+### 2.折线图(line)
+### 3.地图(map)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+连接展示如下
+[地址名](https://blog.gitee.com)
