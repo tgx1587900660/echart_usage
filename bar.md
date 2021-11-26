@@ -84,7 +84,7 @@
 ######  ● 数据
     series[0].data = [] // 数组
 ######  ● 事件
-    echartInstance.on('mouseover', () => {}) // mouseover 代表鼠标进入柱子时触发
+    echartInstance.on('mouseover', () => {}) // mouseover 代表鼠标进入柱子时触发 
 
 ##### 最后一步(渲染图形)
     echartInstance.setOption(option)
