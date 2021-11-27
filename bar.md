@@ -2,7 +2,7 @@
 #### 首先初始化echarts实例对象
     const echartInstance = echarts.init(dom, 'chalk') // dom 为网页元素, 'chalk' 为使用的主题(不传则用默认主题)
 
-#### 1.标题 option.title = {}
+#### 标题 option.title = {}
     option.title.left = 20 // 距离左侧位置
     option.title.top = 20 // 距离顶部位置
 
@@ -11,7 +11,7 @@
     option.title.textStyle = {} // 标题样式
     option.title.textStyle.fontSize = 20
     
-#### 2.位置 option.grid = {}
+#### 位置 option.grid = {}
     option.grid.top = '20%'
     option.grid.left = '3%'
     option.grid.right = '6%'
@@ -19,7 +19,7 @@
 
     option.grid.containLabel = true // 距离是否要包含坐标轴文字
 
-#### 3.鼠标提示信息 option.tooltip = {}
+#### 鼠标提示信息 option.tooltip = {}
     option.tooltip.trigger = 'axis' // 触发模式
 
     option.tooltip.axisPointer = {} // 指示器设置
@@ -30,14 +30,21 @@
     option.tooltip.axisPointer.lineStyle.color = '#2d3443'width
     option.tooltip.axisPointer.lineStyle.width = 20
 
-#### 4. x 轴的配置 xAxis = {}
+#### 区域缩放 option.dataZoom = {}
+    option.dataZoom.show = true // 显示区域缩放
+
+    // 筛选10条数据
+    option.dataZoom.startValue = 0 // 开始位置
+    option.dataZoom.endValue = 9 // 结束位置
+
+#### x 轴的配置 xAxis = {}
     xAxis.type = 'value' // value为数值类型, category为类目轴
 
-#### 5. y 轴的配置 yAxis = {}
+#### y 轴的配置 yAxis = {}
     yAxis.type = 'category' // category 为类目轴
     yAxis.data = ['商家8', '商家4', '商家14', '商家7', '商家3'] // 数组
 
-#### 6. 系列的配置 series = [{}, {}, {}....]
+#### 系列的配置 series = [{}, {}, {}....]
     series[0].type = 'bar' // bar 表示柱状图
 
     series[0].label = {} // 柱子上文字配置
@@ -71,7 +78,7 @@
 
     series[0].data = [23, 49, 57, 76, 83] // 对应类目的数据
     
-#### 7. 事件
+#### 事件
     echartInstance.on('mouseover', () => {}) // mouseover 代表鼠标进入柱子时触发 
 
 #### 最后一步(渲染图形)
