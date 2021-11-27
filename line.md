@@ -1,5 +1,8 @@
 # 折线图(bar)
 
+#### 首先初始化echarts实例对象
+    const echartInstance = echarts.init(dom, 'chalk') // dom 为网页元素, 'chalk' 为使用的主题(不传则用默认主题)
+
 #### 1.位置 option.grid = {}
     见 bar 图
 

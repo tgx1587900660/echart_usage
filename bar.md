@@ -1,4 +1,6 @@
 # 柱形图(bar)
+#### 首先初始化echarts实例对象
+    const echartInstance = echarts.init(dom, 'chalk') // dom 为网页元素, 'chalk' 为使用的主题(不传则用默认主题)
 
 #### 1.标题 option.title = {}
     option.title.left = 20 // 距离左侧位置
@@ -72,5 +74,5 @@
 #### 7. 事件
     echartInstance.on('mouseover', () => {}) // mouseover 代表鼠标进入柱子时触发 
 
-##### 最后一步(渲染图形)
+#### 最后一步(渲染图形)
     echartInstance.setOption(option)
