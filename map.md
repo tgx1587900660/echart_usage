@@ -58,5 +58,5 @@
 
     series[0].coordinateSystem = 'geo' // 开启地图联动 (即散点在地图上绘制)
     
-#### 7. 事件
+#### 地图事件
     echartInstance.on('click', (e) => {}) // click 代表鼠标点击省份时触发, e 为该区域详情
