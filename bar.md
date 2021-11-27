@@ -8,7 +8,7 @@
 
     option.title.text = '商家销售统计'
 
-    option.title.textStyle = {} // 
+    option.title.textStyle = {} // 标题样式
     option.title.textStyle.fontSize = 20
     
 #### 2.位置 option.grid = {}
