@@ -2,16 +2,19 @@
 
 ### 组件基本结构模版
 见 template.vue 文件
-### [1.柱状图(bar)](https://gitee.com/tgx-1587900660/echart_usage/blob/master/bar.md)
 
-### [2.折线图(line)](https://gitee.com/tgx-1587900660/echart_usage/blob/master/line.md)
+### [通用配置](https://gitee.com/tgx-1587900660/echart_usage/blob/master/common.md)
 
-### [3.散点图(scatter)](https://gitee.com/tgx-1587900660/echart_usage/blob/master/scatter.md)
+### [柱状图(bar)](https://gitee.com/tgx-1587900660/echart_usage/blob/master/bar.md)
 
-### [4.地图(map)](https://gitee.com/tgx-1587900660/echart_usage/blob/master/map.md)
+### [折线图(line)](https://gitee.com/tgx-1587900660/echart_usage/blob/master/line.md)
 
-### [5.饼图(pie)](https://gitee.com/tgx-1587900660/echart_usage/blob/master/pie.md)
+### [散点图(scatter)](https://gitee.com/tgx-1587900660/echart_usage/blob/master/scatter.md)
 
-### [6.雷达图(radar)](https://gitee.com/tgx-1587900660/echart_usage/blob/master/radar.md)
+### [地图(map)](https://gitee.com/tgx-1587900660/echart_usage/blob/master/map.md)
 
-### [7.仪表盘(gauge)](https://gitee.com/tgx-1587900660/echart_usage/blob/master/gauge.md)
+### [饼图(pie)](https://gitee.com/tgx-1587900660/echart_usage/blob/master/pie.md)
+
+### [雷达图(radar)](https://gitee.com/tgx-1587900660/echart_usage/blob/master/radar.md)
+
+### [仪表盘(gauge)](https://gitee.com/tgx-1587900660/echart_usage/blob/master/gauge.md)
