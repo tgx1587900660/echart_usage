@@ -5,8 +5,6 @@
 
     option.series[0].radius = 20 // 大小
 
-    option.series[0].radius = [60, 80] // 内圆 60 外圆80 (环状图使用)
-
     option.series[0].center = ['50%', '60%'] 位置(图形正中央偏下)
     option.series[0].hoverAnimation = false // 鼠标放入时动画不启用
     
@@ -35,9 +33,11 @@
         }
     ]
 
+    option.series[0].radius = [60, 80] // 内圆 60 外圆80 (环状图使用)
     option.series[0].label = {} // 文字配置
 
     option.series[0].label.position = 'center' // 显示在中间(环状图使用)
+    option.series[0].label.fontSize = 20 // 字体大小
 
     option.series[0].label.show = false // 是否显示文字
     option.series[0].labelLine = {} // 饼图 连接线
