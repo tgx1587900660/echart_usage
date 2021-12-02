@@ -3,6 +3,8 @@
 ### 组件基本结构模版
 见 template.vue 文件
 
+### [WebSocket使用](https://gitee.com/tgx-1587900660/echart_usage/blob/master/WebSocket.md)
+
 ### [通用配置](https://gitee.com/tgx-1587900660/echart_usage/blob/master/common.md)
 
 ### [柱状图(bar)](https://gitee.com/tgx-1587900660/echart_usage/blob/master/bar.md)
